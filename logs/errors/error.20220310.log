@@ -1,0 +1,276 @@
+{"date":"2022-03-10T10:55:54.394","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"18893","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /
+  Method: GET
+  IP: ::1
+  Status: 404
+  Response: NotFoundException: Cannot GET /
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T10:55:54.574","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"18893","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /favicon.ico
+  Method: GET
+  IP: ::1
+  Status: 404
+  Response: NotFoundException: Cannot GET /favicon.ico
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T10:56:22.367","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"18893","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user?page=1&limit=10
+  Method: GET
+  IP: ::1
+  Status: 500
+  Response: EntityColumnNotFound: No entity column "page" was found.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T10:56:23.502","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"18893","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user?page=1&limit=10
+  Method: GET
+  IP: ::1
+  Status: 500
+  Response: EntityColumnNotFound: No entity column "page" was found.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:04:50.228","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"19851","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: POST
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: 角色不能为空
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:05:18.756","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"19964","data":'MysqlQueryRunner.ts(195,55): 
+ INSERT INTO `rbac_user`(`id`, `name`, `username`, `password`, `role`, `headImg`, `phone`, `email`, `remark`, `status`, `createTime`, `updateTime`) VALUES (?, ?, DEFAULT, ?, DEFAULT, ?, ?, ?, ?, DEFAULT, DEFAULT, DEFAULT)'}
+{"date":"2022-03-10T11:05:18.760","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"19964","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: POST
+  IP: ::1
+  Status: 500
+  Response: QueryFailedError: Incorrect string value: '\xE5\x90\xB4\xE6\xB5\xA9' for column 'name' at row 1
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:05:31.896","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"19964","data":'MysqlQueryRunner.ts(195,55): 
+ INSERT INTO `rbac_user`(`id`, `name`, `username`, `password`, `role`, `headImg`, `phone`, `email`, `remark`, `status`, `createTime`, `updateTime`) VALUES (?, ?, DEFAULT, ?, DEFAULT, ?, ?, ?, ?, DEFAULT, DEFAULT, DEFAULT)'}
+{"date":"2022-03-10T11:05:31.899","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"19964","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: POST
+  IP: ::1
+  Status: 500
+  Response: QueryFailedError: Field 'username' doesn't have a default value
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:06:37.938","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"20151","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: POST
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: 角色不能为空
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:06:50.103","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"20151","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: POST
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: 请选择允许范围内角色
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:08:07.249","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"20296","data":'MysqlQueryRunner.ts(195,55): 
+ INSERT INTO `rbac_user`(`id`, `name`, `phone`, `password`, `role`, `headImg`, `email`, `remark`, `status`, `createTime`, `updateTime`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, DEFAULT, DEFAULT, DEFAULT)'}
+{"date":"2022-03-10T11:08:07.254","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"20296","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: POST
+  IP: ::1
+  Status: 500
+  Response: QueryFailedError: Data too long for column 'headImg' at row 1
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:10:11.780","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"20296","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: PUT
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: id不能为空
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:12:26.368","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"20843","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: PUT
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: id不能为空
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:12:32.879","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"20843","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: PUT
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: id不能为空
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:12:45.107","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"20843","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: DELETE
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: id不能为空
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:16:44.097","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"20909","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: PUT
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: id不能为空
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:17:14.300","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"21139","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: PUT
+  IP: ::1
+  Status: 404
+  Response: NotFoundException: Cannot PUT /api/user
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:18:38.515","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"21255","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: POST
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: 角色不能为空
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:19:22.365","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"21319","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: POST
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: 请输入允许范围内角色
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:19:28.594","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"21319","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user
+  Method: POST
+  IP: ::1
+  Status: 400
+  Response: BadRequestException: 请输入正确的手机号码
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:40:53.560","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"23826","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user?phone=016&page=3&limit=10
+  Method: GET
+  IP: ::1
+  Status: 429
+  Response: HttpException: 服务器繁忙，请稍候重试！
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:40:55.290","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"23826","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user?phone=016&page=3&limit=10
+  Method: GET
+  IP: ::1
+  Status: 429
+  Response: HttpException: 服务器繁忙，请稍候重试！
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:40:56.785","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"23826","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user?phone=016&page=3&limit=10
+  Method: GET
+  IP: ::1
+  Status: 429
+  Response: HttpException: 服务器繁忙，请稍候重试！
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:40:58.126","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"23826","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user?phone=016&page=3&limit=10
+  Method: GET
+  IP: ::1
+  Status: 429
+  Response: HttpException: 服务器繁忙，请稍候重试！
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:40:59.648","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"23826","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user?phone=016&page=3&limit=10
+  Method: GET
+  IP: ::1
+  Status: 429
+  Response: HttpException: 服务器繁忙，请稍候重试！
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:41:07.817","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"23826","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user?phone=016&page=1&limit=10
+  Method: GET
+  IP: ::1
+  Status: 429
+  Response: HttpException: 服务器繁忙，请稍候重试！
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:41:09.120","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"23826","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user?phone=016&page=1&limit=10
+  Method: GET
+  IP: ::1
+  Status: 429
+  Response: HttpException: 服务器繁忙，请稍候重试！
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
+{"date":"2022-03-10T11:41:09.998","level":"ERROR","category":"default","host":"MacBook-Pro.local","pid":"23826","data":'any-exception.filter.ts(31,12): 
+ 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  URL: /api/user?phone=016&page=1&limit=10
+  Method: GET
+  IP: ::1
+  Status: 429
+  Response: HttpException: 服务器繁忙，请稍候重试！
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+'}
